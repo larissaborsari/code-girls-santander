@@ -32,6 +32,41 @@ public class Main {
         System.out.println("e/a: " + r4);
         System.out.println("c%b: " + r5);
 
+        int u = 1500;
+        short w = 15;
+        long l = 500L;
+        int y = 35;
+        float f = 3.5f;
+        double n = f;
+
+        System.out.println(n);
+
+        u += 5;
+        w -= 3;
+        n /= 2.7d;
+        l *= 3;
+        y %= 2;
+
+        System.out.println("u: " + u);
+        System.out.println("w: " + w);
+        System.out.println("n: " + n);
+        System.out.println("l: " + l);
+        System.out.println("y: " + y);
+
+        u = y = w;
+
+        System.out.println("y: " + y);
+        System.out.println("u: " + u);
+
+        int i2 = 10;
+        int j2 = 30;
+        int k2 = 30;
+
+        int a = i2 ++ + --j2 + k;
+        System.out.println("a: " + a);
+
+        
+
     }
 
 }
