@@ -62,10 +62,18 @@ public class Main {
         int j2 = 30;
         int k2 = 30;
 
-        int a = i2 ++ + --j2 + k;
-        System.out.println("a: " + a);
+        int a2 = i2 ++ + --j2 + k2;
+        System.out.println("a: " + a2);
 
-        
+        int b2 = a2 / --i2 % 3 + 1;
+
+        System.out.println("b: " + b2);
+
+        int c2 = 2;
+
+        c2 *= i2 += 5;
+
+        System.out.println("c: " + c);
 
     }
 
