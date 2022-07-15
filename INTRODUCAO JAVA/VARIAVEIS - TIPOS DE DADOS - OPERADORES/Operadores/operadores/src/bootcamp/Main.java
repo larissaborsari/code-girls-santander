@@ -26,6 +26,12 @@ public class Main {
         int r4 = e/a;
         int r5 = c%b;
 
+        System.out.println("a+b: " + r1);
+        System.out.println("c-a: " + r2);
+        System.out.println("d*b: " + r3);
+        System.out.println("e/a: " + r4);
+        System.out.println("c%b: " + r5);
+
     }
 
 }
